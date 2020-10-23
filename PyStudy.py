@@ -18,3 +18,15 @@ else:
 while x > 0:
     print("x going down :", x)
     x -= 1;
+
+
+arrays =[1,2,3,4]
+
+new_array = []
+sums = 0
+
+for i in range(0, len(arrays)):
+    sums += arrays[i]
+    new_array.append(sums)
+
+print(new_array)
