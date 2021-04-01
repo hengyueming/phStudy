@@ -21,8 +21,9 @@ while x > 0:
 
 
 arrays =[1,2,3,4]
-
+index = [0,1,1,0]
 new_array = []
+new_array1 = []
 sums = 0
 
 for i in range(0, len(arrays)):
@@ -30,3 +31,9 @@ for i in range(0, len(arrays)):
     new_array.append(sums)
 
 print(new_array)
+
+
+for u in range(0,len(index)):
+    new_array1.insert(index[u],arrays[u])
+
+print(new_array1)
